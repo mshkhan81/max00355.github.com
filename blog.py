@@ -7,7 +7,7 @@ class Post:
     def main(self):
         title = raw_input("Title: ")
         month, day, year = time.localtime()[1], time.localtime()[2], time.localtime()[0]
-        hour, min, sec = time.localtime()[3], time.loacaltime()[4], time.localtime()[5]
+        hour, min, sec = time.localtime()[3], time.localtime()[4], time.localtime()[5]
         data = "{0} / {1} / {2} {3}:{4}:{5}".format(month, day, year, hour, min, sec)
         post = raw_input("Post: ")
         with open(self.filename,'r') as file:
