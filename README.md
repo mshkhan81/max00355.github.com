@@ -5,4 +5,4 @@ This is just a blog-type site I am hosting on Github Pages. It uses a mini HTML 
 
 The blog will consist of just programming topics, and general posts.
 
-http://projectfrankie.zapto.org
+http://projectfrankie.org
