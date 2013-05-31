@@ -18,7 +18,7 @@ class Post:
                 file.write(data)
         os.system("git add -A")
         os.system("git commit -m 'Post'")
-        os.system("git push -u origin gh-pages")
+        os.system("git push -u origin master")
 
 Post().main()
 
